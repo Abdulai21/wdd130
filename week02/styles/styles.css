@@ -1,0 +1,26 @@
+nav {
+    background-color: red;
+    padding: 10px;
+}
+
+nav a {
+    color: rgba(202, 54, 54, 0.952);
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(39, 71, 18);
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
