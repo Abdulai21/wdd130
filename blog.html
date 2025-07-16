@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        /* Basic Reset & body styles*/
+        body {
+            margin: 0;
+            font-family: Arial, sans-seriif;
+            line-height: 1.6;
+            background-color: #c3c7b6e1;
+            color: #2003295d;
+        }
+
+        /*Heading Styling*/
+        header {
+            background-color: #e6e4fa;
+            color:  hsl(138, 94%, 37%)
+            padding: 3rem 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        /*Main content area*/
+        main {
+            width: 80%;
+            /*takes up 80% of the screen width*/
+            padding: 20PX;
+            background-color: #c3afe2;
+            border-radius: 8px;
+            /*slightly rounded corners*/
+            box-shadow: 0 0 10px rgba(rgb(80, 9, 9), rgb(8, 73, 8), blue, alpha);
+            /*subtle shaddow*/
+        }
+
+        /*blog post styling*/
+        blog-post {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dash #5c4747;
+            /* A dash line at the bottom of each post*/
+        }
+
+        blog-post:last-child {
+            border-bottom: none;
+            /*no border for the last post*/
+
+        }
+
+
+        blog-post h2 {
+            color: hsl(172, 94%, 25%);
+            margin-top: 0;
+            /*removed default top margin*/
+        }
+
+        blog-post.meta {
+            font-size: 0.9em;
+            color: #079fc5;
+            margin-bottom: 15px;
+
+        }
+
+        blog-post p {
+            margin-bottom: 10px;
+
+        }
+
+        .read-more {
+            display: inline;
+            /*Allows padding and margin*/
+            background-color: rgb(28, 177, 139);
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            /*remove underline from link*/
+            border-radius: 5px;
+            transition: backgroud-color 0.3s ease;
+            /*smooth hover effect*/
+        }
+
+        read-more:hover {
+            background-color: #171b18;
+
+        }
+
+        /*footer styling*/
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #110f8f;
+            color: #fff;
+            margin-top: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Style Blog Post</title>
+    <link rel="stylesheet" href="week02/styles/blog.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Awsome blog</h1>
+    </header>
+
+    <main>
+        <article class="blog-post">
+            <h2>First Post: Getting started with CSS</h2>
+            <P class="meta" P> Published on July 12, 2025 by beginersDev</P>
+            <p>Welcome to my first blog post! Today, we're diving into the wonderfull
+                world of CSS. It's truly amazing how a few lines of code can transform a
+                plain HTML page into something beautifull.
+            </p>
+            <P>Stay tuned for more tips and tricks!</P>
+            <a href="#" class="read-more">Read More &raquo;</a>
+        </article>
+
+        <article class="blog-post">
+            <h2>Second Post: Understanding the Box Model</h2>
+            <p class="meta">Publish on July 11, 2025 by beginersDev</p>
+            <P>The CSS Box Model is fundamental to web layout. Every element
+                on a web page is treated as a rectangular box, and understanding its
+                component(content, padding, border, margin) is key.
+            </P>
+            <P>Mastering the box model will give you great control over spacing and positioning.</P>
+            <a href="#" class="read-more">read-more &raquo;</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Awesome Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

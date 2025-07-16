@@ -1,0 +1,95 @@
+/* Basic Reset & body styles*/
+body {
+    margin: 0;
+    font-family: Arial, sans-seriif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*Heading Styling*/
+header {
+    background-color: #333;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/*Main content area*/
+main {
+    width: 80%;
+    /*takes up 80% of the screen width*/
+    padding: 20PX;
+    background-color: #fff;
+    border-radius: 8px;
+    /*slightly rounded corners*/
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    /*subtle shaddow*/
+}
+
+/*blog post styling*/
+blog-post {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dash #ccc;
+    /* A dash line at the bottom of each post*/
+}
+
+blog-post:last-child {
+    border-bottom: none;
+    /*no border for the last post*/
+
+}
+
+
+blog-post h2 {
+    color: #0077bf;
+    margin-top: 0;
+    /*removed default top margin*/
+}
+
+blog-post.meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+
+}
+
+blog-post p {
+    margin-bottom: 10px;
+
+}
+
+.read-more {
+    display: inline;
+    /*Allows padding and margin*/
+    background-color: green;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    /*remove underline from link*/
+    border-radius: 5px;
+    transition: backgroud-color 0.3s ease;
+    /*smooth hover effect*/
+}
+
+read-more:hover {
+    background-color: #218838;
+
+}
+
+/*footer styling*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
