@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Text Example</title>
+
+    <style>
+        .image-container {
+            position: relative;
+            /* THIS IS KEY! */
+            width: 500px;
+            /* Set a width for your container (optional, but good practice) */
+            height: 300px;
+            /* Set a height for your container (optional, but good practice) */
+            overflow: hidden;
+            /* Hides anything that goes outside the container */
+            margin: 20px auto;
+            /* Centers the container on the page */
+        }
+
+        .image-container img {
+            width: 100%;
+            /* Make the image fill the container width */
+            height: 100%;
+            /* Make the image fill the container height */
+            display: block;
+            /* Removes extra space below the image */
+            object-fit: cover;
+            /* Ensures the image covers the area without distortion */
+        }
+
+        .overlay-text {
+            position: absolute;
+            /* THIS IS ALSO KEY! */
+            top: 50%;
+            /* Position from the top (50% down from the parent's top) */
+            left: 50%;
+            /* Position from the left (50% in from the parent's left) */
+            transform: translate(-50%, -50%);
+            /* Centers the text perfectly */
+            color: white;
+            /* Text color */
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent black background */
+            padding: 15px;
+            /* Spacing around the text */
+            text-align: center;
+            /* Center the text horizontally */
+            width: 80%;
+            /* Make text span 80% of container width */
+            box-sizing: border-box;
+            /* Include padding in the width calculation */
+        }
+
+        /* Optional: Add some basic body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<div class="image container">
+    <img src="week02/image2/chad.jpg" alt="A beautiful Land scape">
+    <div classweek02="Overlay Text">
+        <h2>A beautiful Sunset</h2>
+        <p>A serene view of the evening sky</p>
+    </div>
+
+    <body>
+
+    </body>
+
+</html>

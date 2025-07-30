@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -9,20 +7,14 @@
 }
 
 
-:root{
-    --heading-background-color: #f06
-    --heading-text-color: #333
-    --heading-font: Montserrat', Helvetca, Sans-serif'
-    --padding: 1rem
-    --border: 1px solid rgb(0 0 0/0. 1) 
-
-
+:root {
+    --heading-background-color: #f06 --heading-text-color: #333 --heading-font: Montserrat', Helvetca, Sans-serif'
+        --padding: 1rem --border: 1px solid rgb(0 0 0/0. 1)
 }
 
 
 nav {
-    background-color: var(--heading-background-color)
-    padding: 10px;
+    background-color: var(--heading-background-color) padding: 10px;
 }
 
 nav a {
@@ -41,15 +33,13 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    
+
 }
 
 p {
     padding: 10px;
 }
-main{
-    max-width: 800px;
-}
+
 
 aside {
     width: 20rem;
@@ -62,47 +52,90 @@ aside {
 
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
-main img{
+main img {
     width: 150px;
     height: auto;
     float: right;
 }
 
 
-p{
+p {
     padding: 0;
 }
 
-footer{
-margin-top: 15px;
-border-top: 1px solid #000;
-text-align: center;
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
 
 
 /* class selectors */
-.box{
+.box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #ddd;
-    color: #000 ;
+    color: #000;
 }
 
-aside{
+aside {
     width: 10rem;
     text-align: center;
 }
 
-aside h2{
-    position: absolute ;
+aside h2 {
+    position: absolute;
     top: 47px;
     left: 150px;
 }
 
+header,
+footer {
 
+    max-width: 840;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav a {
+    display: block;
+    padding: o.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+header,
+.grid,
+footer {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
