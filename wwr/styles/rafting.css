@@ -164,3 +164,59 @@ footer {
     justify-content: end;
     gap: 100px;
 }
+
+.employee-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.employee-section h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.employee-section .employee {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-section .employee p {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+
+.employee-section img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.info-section .info {
+    width: 30%;
+    padding: 20px;
+    text-align: left;
+}
+
+.info-section .info h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}

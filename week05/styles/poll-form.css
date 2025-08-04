@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,14 +8,14 @@ body {
     font-family: poppins, sans-serif;
     color: #242f40;
     font-size: 1.2rem;
-    background: #fff ;
-    
+    background: #fff;
+
 }
 
 header {
     margin: 0 auto;
     width: 650px;
-    
+
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
     text-align: center;
 }
 
-form{
+form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -35,16 +35,15 @@ form{
     border: 1px solid rgb(0 0 0 / 0.1);
 }
 
-fieldset{
-    border: 1px solid rgb(0 0 0 / 0.1)
-    margin: 1rem;
+fieldset {
+    border: 1px solid rgb(0 0 0 / 0.1) margin: 1rem;
     padding: 1rem;
     display: grid;
     grid-gap: 0.5rem;
 }
 
 
-legend{
+legend {
     padding: 0.5rem;
     color: #053070;
     font-weight: bold;
@@ -52,7 +51,10 @@ legend{
 
 }
 
-label, input, select, textarea {
+label,
+input,
+select,
+textarea {
     font-family: Roboto, sans-serif;
     color: #242f40;
 }
@@ -63,12 +65,14 @@ label {
     padding: 1rem;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     padding: 0.5rem;
     font-size: 1.2rem;
 }
 
-input[type="text"]{
+input[type="text"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
@@ -76,14 +80,14 @@ input[type="text"]{
 }
 
 botton {
-    margin: 1rem ;
+    margin: 1rem;
     padding: 0.5rem;
-    background-color:navy;
+    background-color: navy;
     color: #fff;
     border: none;
     border-radius: 4px;
     font-size: 1.2rem;
-
+    cursor: pointer;
 }
 
 button:hover {
@@ -92,7 +96,7 @@ button:hover {
 }
 
 
-footer{
+footer {
     margin: 1rem auto;
     width: 650px;
     text-align: center;
