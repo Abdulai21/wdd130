@@ -144,7 +144,7 @@
     </header>
     <main>
         <section>
-            <h2>Company Information</h2>
+            <h1>Company Information</h1>
             <p>Address: 4A Tank Yard Wilberforce, Freetown</p>
             <p>Phone: +23232845563</p>
             <p>Email: abdulaibarrie139@gmail.com</p>
@@ -188,25 +188,28 @@
                 <fieldset>
                     <legend>Purpose of Message</legend>
                     <label>
-                        <input type="radio" name="purpose" value="general-inquiry" required> General Inquiry
+                        <input id="purpose1" type="radio" name="purpose" value="general-inquiry" required> General
+                        Inquiry
                     </label>
                     <label>
-                        <input type="radio" name="purpose" value="reservation-question"> Reservation Question
+                        <input id="purpose2" type="radio" name="purpose" value="reservation-question"> Reservation
+                        Question
                     </label>
                     <label>
-                        <input type="radio" name="purpose" value="website-suggestion"> Website Suggestion
+                        <input id="purpose3" type="radio" name="purpose" value="website-suggestion"> Website Suggestion
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Your Message</legend>
                     <label for="message">Message:</label>
-                    <textarea id="message" name=rows="5" required></text area>
-                </fieldset> 
-                
-                  <fieldset>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </fieldset>
+
+                <fieldset>
                     <label>
-                        <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly newsletter
+                        <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly
+                        newsletter
                     </label>
                 </fieldset>
 
