@@ -165,7 +165,7 @@ footer {
     gap: 100px;
 }
 
-.employee-section {
+.employee-profiles {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,14 +174,7 @@ footer {
     padding: 20px;
 }
 
-
-.employee-section h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    margin-bottom: 20px;
-}
-
-.employee-section .employee {
+.employee-profiles figure {
     flex: 1;
     margin: 0 10px;
     padding: 20px;
@@ -190,16 +183,17 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.employee-section .employee p {
-    font-family: var(--text-font);
-    color: var(--primary-color);
-    margin: 10px 0;
-}
-
-.employee-section img {
+.employee-profiles img {
     width: 150px;
     height: auto;
     border-radius: 50%;
+}
+
+
+.employee-profiles h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 20px;
 }
 
 .info-section {

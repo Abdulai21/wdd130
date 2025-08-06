@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -103,6 +103,121 @@
 
     <footer>
         <p>&copy; 2025 White Water Rafting Company Abdulai Barrie</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook" width="60" height="60">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter" width="60" height="60">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram" width="60" height="60">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Abdulai Barrie">
+    <meta name="description"
+        content="Contact us at White Water Rafting Company for inquiries, reservations, and feedback. Get in touch with our team via phone, email, or our online form.">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - White Water Rafting Company</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Company Information</h2>
+            <p>Address: 4A Tank Yard Wilberforce, Freetown</p>
+            <p>Phone: +23232845563</p>
+            <p>Email: abdulaibarrie139@gmail.com</p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1576.4950462061452!2d-122.41941569470942!3d37.77492955519302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858079a4e320f7%3A0xe5a36c6a46b5a31a!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1625894178556!5m2!1sen!2sus"
+                    width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Smiling employee John Doe" width="300" height="400">
+                    <figcaption>John Doe, Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Smiling employee Jane Smith" width="300" height="400">
+                    <figcaption>Jane Smith, Reservations Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Smiling employee Alex Chen" width="300" height="400">
+                    <figcaption>Alex Chen, Gear Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send us a message</h2>
+            <form action="/submit-form" method="post">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general-inquiry" required> General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation-question"> Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website-suggestion"> Website Suggestion
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name=rows="5" required></text area>
+                </fieldset> 
+                
+                  <fieldset>
+                    <label>
+                        <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly newsletter
+                    </label>
+                </fieldset>
+
+                <button type="submit">Send Your Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting Company Abdulai Barrie</p>
+        <p><a href="contact-us-wireframe.png" target="_blank">Contact Us Wireframe</a></p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook.svg" alt="Facebook" width="60" height="60">
