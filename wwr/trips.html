@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Abdulai Barrie">
+    <meta name="description"
+        content="Discover our exciting white water rafting trips, from family-friendly adventures to challenging, expert-level rapids. Book your trip today!">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Our Trips - White Water Rafting Co.</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Exciting Rafting Trips</h1>
+        <section class="trips-intro">
+            <p>Choose from our wide range of rafting adventures tailored for every skill level. Our professional guides and top-of-the-line equipment ensure a safe and thrilling experience on the river.</p>
+            <img src="images/rafting_trips.jpg" alt="A group of rafters enjoying a sunny day on the river">
+        </section>
+
+        <section class="trips-grid">
+            <div class="trip-card">
+                <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting15_1024.jpg" alt="Family floating on a calm river">
+                <h3>The Family Float</h3>
+                <p>Perfect for beginners and families with children. This gentle trip is a great introduction to rafting, offering beautiful scenery and calm waters.</p>
+                <p>Duration: Half-day | Price: $75 per person</p>
+                <a href="contact.html" class="book-button">Book Now!</a>
+            </div>
+            <div class="trip-card">
+                <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting53_600.jpg" alt="Kayaker on a rapid">
+                <h3>The Wild Rapids Challenge</h3>
+                <p>A high-energy trip for experienced rafters. Navigate thrilling Class IV rapids and feel the rush of the wild water.</p>
+                <p>Duration: Full-day | Price: $150 per person</p>
+                <a href="contact.html" class="book-button">Book Now!</a>
+            </div>
+            <div class="trip-card">
+                <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting18_600.jpg" alt="Group of people on a raft in a canyon">
+                <h3>Canyon Expedition</h3>
+                <p>An overnight trip for the truly adventurous. Camp by the river and enjoy two full days of rafting through a stunning canyon.</p>
+                <p>Duration: 2 days, 1 night | Price: $300 per person</p>
+                <a href="contact.html" class="book-button">Book Now!</a>
+            </div>
+        </section>
+
+        <section class="trips-table">
+            <h2>Trip Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The Family Float</td>
+                        <td>Half-day</td>
+                        <td>Easy</td>
+                        <td>$75</td>
+                    </tr>
+                    <tr>
+                        <td>The Wild Rapids Challenge</td>
+                        <td>Full-day</td>
+                        <td>Difficult</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Canyon Expedition</td>
+                        <td>2 Days</td>
+                        <td>Difficult</td>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year-trips"></span> White Water Rafting Company Abdulai Barrie</p>
+        <p><a href="trips-wireframe.png" target="_blank">Trips Page Wireframe</a></p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook" width="60" height="60">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.svg" alt="Twitter" width="60" height="60">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram" width="60" height="60">
+            </a>
+        </nav>
+    </footer>
+    <script>
+        document.getElementById('current-year-trips').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
